@@ -21,10 +21,10 @@
     </aside>
     <div id="page" class="table w-full h-full">
         <header
-            class="w-full h-80 flex flex-col justify-end items-center bg-[url('dna.png')] bg-fixed bg-cover bg-top bg-no-repeat print:hidden">
+            class="w-full h-80 flex flex-col justify-end items-center bg-[url('/dna.png')] bg-fixed bg-cover bg-top bg-no-repeat print:hidden">
             <div id="page-title" class="w-full flex justify-center h-fit">
                 <h1
-                    class="font-thin text-6xl grow max-w-6xl sm:bg-[url('brand.png')] bg-contain bg-right bg-no-repeat">
+                    class="font-thin text-6xl grow max-w-6xl sm:bg-[url('/brand.png')] bg-contain bg-right bg-no-repeat">
                     Zhao Lab</h1>
             </div>
             <nav id="nav" class="w-full flex justify-center h-fit backdrop-blur">
@@ -52,7 +52,7 @@
                 </ul>
             </nav>
         </header>
-        <div id="content" class="w-full [&_a]:underline [&_a]:text-link-active-color">
+        <div id="main-content" class="w-full [&_a]:underline [&_a]:text-link-active-color">
             <div class="max-w-6xl m-auto">
                 <section class="grid gap-6 md:grid-cols-[1fr_3fr]">
                     <h1 class="uppercase text-xl font-sans">The Boss</h1>

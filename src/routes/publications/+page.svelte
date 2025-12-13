@@ -16,11 +16,11 @@
 </aside>
 <div id="page" class="table h-full w-full">
 	<header
-		class="flex h-80 w-full flex-col items-center justify-end bg-[url('dna.png')] bg-cover bg-fixed bg-top bg-no-repeat print:hidden"
+		class="flex h-80 w-full flex-col items-center justify-end bg-[url('/dna.png')] bg-cover bg-fixed bg-top bg-no-repeat print:hidden"
 	>
 		<div id="page-title" class="flex h-fit w-full justify-center">
 			<h1
-				class="max-w-6xl grow bg-contain bg-right bg-no-repeat text-6xl font-thin sm:bg-[url('brand.png')]"
+				class="max-w-6xl grow bg-contain bg-right bg-no-repeat text-6xl font-thin sm:bg-[url('/brand.png')]"
 			>
 				Zhao Lab
 			</h1>

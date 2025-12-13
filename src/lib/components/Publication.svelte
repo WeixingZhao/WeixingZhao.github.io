@@ -11,7 +11,7 @@
 <script lang="ts">
 	interface PublicationOptions {
 		data: string;
-		href: string;
+		href?: string;
 		author?: string;
 		journal?: string;
 		publication?: string;

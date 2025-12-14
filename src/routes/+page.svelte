@@ -118,17 +118,7 @@
 					</div>
 				</div>
 				<p id="main-content" class="mx-3 indent-8">
-					BRCA1 plays crucial roles in maintaining genome stability
-					via its interaction networks, and mutations in BRCA1
-					engender a high risk of developing cancers in various
-					organs, including breast and ovarian. We aim to understand
-					the mechanisms that underlie BRCA1 dependent processes and
-					their contributions to tumor suppression and therapeutic
-					resistance. Such information garnered from these endeavors
-					will provide actionable information to evaluate the
-					pathogenicity of BRCA mutations, to explain the basis of
-					innate and acquired drug resistance, and will identify
-					targets for the development of new cancer therapeutics.
+				The Zhao laboratory’s major research focus is on the mechanisms that preserve genome integrity, particularly the BRCA1/BRCA2-centered interaction networks that regulate homologous recombination, R-loop homeostasis, and replication stress responses across diverse genomic and cellular contexts. The group is especially interested in how disruption of these pathways drives genome instability, cancer development, and therapeutic resistance. An end goal is to translate these mechanistic insights into actionable approaches to interpret BRCA1/2 variant pathogenicity and to identify repair vulnerabilities that can be exploited to improve cancer therapies.
 				</p>
 				<hr class="my-3" />
 				<ul class="mx-3 break-inside-avoid-column">

@@ -82,7 +82,7 @@
 		class="[&_a]:text-link-active-color w-full bg-slate-500/10 [&_a]:underline"
 	>
 		<div id="grid-container" class="m-auto grid max-w-6xl gap-6 md:grid-cols-[2fr_1fr]">
-			<main class="columns-xs">
+			<main>
 				<div
 					class="embla overflow-hidden [column-span:all]"
 					use:emblaCarouselSvelte={{
@@ -117,8 +117,8 @@
 						</div>
 					</div>
 				</div>
-				<p id="main-content" class="mx-3 indent-8">
-				The Zhao laboratory’s major research focus is on the mechanisms that preserve genome integrity, particularly the BRCA1/BRCA2-centered interaction networks that regulate homologous recombination, R-loop homeostasis, and replication stress responses across diverse genomic and cellular contexts. The group is especially interested in how disruption of these pathways drives genome instability, cancer development, and therapeutic resistance. An end goal is to translate these mechanistic insights into actionable approaches to interpret BRCA1/2 variant pathogenicity and to identify repair vulnerabilities that can be exploited to improve cancer therapies.
+				<p id="main-content" class="m-3 indent-8">
+				The Zhao laboratory's major research focus is on the mechanisms that preserve genome integrity, particularly the BRCA1/BRCA2-centered interaction networks that regulate homologous recombination, R-loop homeostasis, and replication stress responses across diverse genomic and cellular contexts. The group is especially interested in how disruption of these pathways drives genome instability, cancer development, and therapeutic resistance. An end goal is to translate these mechanistic insights into actionable approaches to interpret BRCA1/2 variant pathogenicity and to identify repair vulnerabilities that can be exploited to improve cancer therapies.
 				</p>
 				<hr class="my-3" />
 				<ul class="mx-3 break-inside-avoid-column">

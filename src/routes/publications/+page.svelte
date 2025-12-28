@@ -73,12 +73,12 @@
 				<a
 					class="text-link-active-color px-3 underline"
 					href="https://scholar.google.com/citations?user=uzigj2EAAAAJ"
-					target="_blank">View on Google Scholar</a
+					>View on Google Scholar</a
 				>
 				<a
 					class="rounded-full bg-blue-600 px-3 text-white no-underline"
 					href="https://scholar.google.com/citations?user=uzigj2EAAAAJ#d=gsc_md_fol"
-					target="_blank">Follow</a
+					>Follow</a
 				>
 			</span>
 			<ol
@@ -138,7 +138,7 @@
 						<a
 							class="block"
 							href="https://pubmed.ncbi.nlm.nih.gov/37344589/"
-							target="_blank"
+							
 							>Insights into the role of human BCDX2
 							complex in RAD51-dependent homologous
 							recombination by cryoEM and single-molecule
@@ -160,7 +160,7 @@
 						<p>
 							<a
 								href="https://doi.org/10.1093/neuonc/noad018"
-								target="_blank"
+								
 								>Lysine-specific histone demethylase
 								1A (KDM1A/LSD1) inhibition
 								attenuates DNA double-strand breaks
@@ -183,7 +183,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/s41467-023-36211-x"
-								target="_blank"
+								
 								>DNA binding and RAD51 interaction
 								by the BRCA2 C-terminus orchestrate
 								DNA repair and replication fork
@@ -207,7 +207,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/s41467-022-34612-y"
-								target="_blank"
+								
 								>Regulation of BRCA1 stability
 								through the tandem UBX domains of
 								isoleucyl-tRNA synthetase</a
@@ -224,7 +224,7 @@
 						<p>
 							<a
 								href="https://pubmed.ncbi.nlm.nih.gov/35351360/"
-								target="_blank"
+								
 								>BRCA1/BARD1 is a nucleosome reader
 								and writer</a
 							>
@@ -243,7 +243,7 @@
 						<p>
 							<a
 								href="https://aacrjournals.org/cancerres/article-abstract/doi/10.1158/0008-5472.CAN-21-2076/682005/Tumor-intrinsic-PD-L1-promotes-DNA-repair-in"
-								target="_blank"
+								
 								>Tumor-intrinsic programmed
 								death-ligand 1 promotes DNA repair
 								by homologous recombination in
@@ -265,7 +265,7 @@
 						<p>
 							<a
 								href="https://pubmed.ncbi.nlm.nih.gov/35290640/"
-								target="_blank"
+								
 								>In Vitro Reconstitution of
 								BRCA1-BARD1/RAD51 Mediated
 								Homologous DNA Pairing</a
@@ -290,7 +290,7 @@
 						<p>
 							<a
 								href="https://pubmed.ncbi.nlm.nih.gov/34301763/"
-								target="_blank"
+								
 								>ATR and ATM phosphorylation of
 								BRCA1 at T1394 promotes homologous
 								recombinational repair and G2/M
@@ -312,7 +312,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(21)00642-6/fulltext"
-								target="_blank"
+								
 								>RAD51AP1 mediates RAD51 activity
 								through nucleosome interaction</a
 							>
@@ -332,7 +332,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/s41594-020-00556-4"
-								target="_blank"
+								
 								>BRCA1/BARD1 site-specific
 								ubiquitylation of nucleosomal H2A is
 								directed by BARD1</a
@@ -353,7 +353,7 @@
 						<p>
 							<a
 								href="https://academic.oup.com/nar/article-abstract/49/1/285/6041011"
-								target="_blank"
+								
 								>Single-molecule visualization of
 								human RECQ5 interactions with
 								single-stranded DNA recombination
@@ -377,7 +377,7 @@
 						<p>
 							<a
 								href="https://rupress.org/jcb/article-abstract/219/10/e201911049/152064"
-								target="_blank"
+								
 								>NUCKS1 promotes RAD54 activity in
 								homologous recombination DNA repair</a
 							>
@@ -397,7 +397,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(17)49408-7/abstract"
-								target="_blank"
+								
 								>The DNA-binding activity of
 								USP1-associated factor 1 is required
 								for efficient RAD51-mediated
@@ -423,7 +423,7 @@
 						<p>
 							<a
 								href="http://genesdev.cshlp.org/content/33/17-18/1191.short"
-								target="_blank"
+								
 								>Defining the influence of Rad51 and
 								Dmc1 lineage-specific amino acids on
 								genetic recombination</a
@@ -444,7 +444,7 @@
 						<p>
 							<a
 								href="https://www.pnas.org/content/116/35/17438.short"
-								target="_blank"
+								
 								>MiR223-3p promotes synthetic
 								lethality in BRCA1-deficient cancers</a
 							>
@@ -461,7 +461,7 @@
 						<p>
 							<a
 								href="https://www.annualreviews.org/doi/abs/10.1146/annurev-biochem-013118-111058"
-								target="_blank"
+								
 								>The BRCA tumor suppressor network
 								in chromosome damage repair by
 								homologous recombination</a
@@ -480,7 +480,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/pii/S1568786417304160"
-								target="_blank"
+								
 								>Importance of homo-dimerization of
 								Fanconi-associated nuclease 1 in DNA
 								flap cleavage</a
@@ -501,7 +501,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)39136-5/fulltext"
-								target="_blank"
+								
 								>RAD52 is required for RNA-templated
 								recombination repair in post-mitotic
 								neurons</a
@@ -518,7 +518,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/abs/pii/S0076687917303774"
-								target="_blank"
+								
 								>Determining the RAD51-DNA
 								nucleoprotein filament structure and
 								function by cryo-electron microscopy</a
@@ -537,7 +537,7 @@
 						<p>
 							<a
 								href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5800781/"
-								target="_blank"
+								
 								>Promotion of RAD51-mediated
 								homologous DNA pairing by
 								BRCA1-BARD1</a
@@ -553,7 +553,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/nature24060"
-								target="_blank"
+								
 								>BRCA1-BARD1 promotes RAD51-mediated
 								homologous DNA pairing</a
 							>
@@ -570,7 +570,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/nsmb.3336"
-								target="_blank"
+								
 								>Cryo-EM structures of human RAD51
 								recombinase filaments during
 								catalysis of DNA-strand exchange</a
@@ -594,7 +594,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)43135-7/fulltext"
-								target="_blank"
+								
 								>Tolerance of DNA mismatches in Dmc1
 								recombinase-mediated DNA strand
 								exchange</a
@@ -614,7 +614,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/pii/S1097276515010084"
-								target="_blank"
+								
 								>Non-catalytic Roles for XPG with
 								BRCA1 and BRCA2 in Homologous
 								Recombination and Genome Stability</a
@@ -638,7 +638,7 @@
 						<p>
 							<a
 								href="https://academic.oup.com/nar/article/43/20/9817/1400677?login=true"
-								target="_blank"
+								
 								>NUCKS1 is a novel RAD51AP1 paralog
 								important for homologous
 								recombination and genome stability</a
@@ -654,7 +654,7 @@
 						<p>
 							<a
 								href="https://www.science.org/doi/abs/10.1126/science.aab2666"
-								target="_blank"
+								
 								>Base triplet stepping by the
 								Rad51/RecA family of recombinases</a
 							>
@@ -673,7 +673,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/pii/S1097276515003998"
-								target="_blank"
+								
 								>Promotion of BRCA2-dependent
 								homologous recombination by DSS1 via
 								RPA targeting and DNA mimicry</a
@@ -691,7 +691,7 @@
 						<p>
 							<a
 								href="https://academic.oup.com/nar/article/43/8/4055/2414401?login=true"
-								target="_blank"
+								
 								>Significance of ligand interactions
 								involving Hop2-Mnd1 and the RAD51
 								and DMC1 recombinases in homologous
@@ -716,7 +716,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)38672-5/fulltext"
-								target="_blank"
+								
 								>Solution structure and DNA-binding
 								properties of the winged helix
 								domain of the meiotic recombination
@@ -733,7 +733,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/pii/S2211124714000102"
-								target="_blank"
+								
 								>Breast cancer proteins PALB2 and
 								BRCA2 stimulate polymerase η in
 								recombination-associated DNA
@@ -759,7 +759,7 @@
 						<p>
 							<a
 								href="https://academic.oup.com/nar/article/42/2/906/1025872?login=true"
-								target="_blank"
+								
 								>Mechanistic insights into the role
 								of Hop2–Mnd1 in meiotic homologous
 								DNA pairing</a
@@ -783,7 +783,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)53161-X/fulltext"
-								target="_blank"
+								
 								>Mechanistic insights into
 								RAD51-associated protein 1
 								(RAD51AP1) action in homologous DNA
@@ -808,7 +808,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)50759-X/fulltext"
-								target="_blank"
+								
 								>RAD51-associated protein 1
 								(RAD51AP1) interacts with the
 								meiotic recombinase DMC1 through a
@@ -822,7 +822,7 @@
 						<p>
 							<a
 								href="https://link.springer.com/protocol/10.1007/978-1-61779-129-1_24"
-								target="_blank"
+								
 								>Biochemical studies on human
 								Rad51-mediated homologous
 								recombination</a
@@ -841,7 +841,7 @@
 						<p>
 							<a
 								href="https://www.nature.com/articles/nature09318"
-								target="_blank"
+								
 								>Mechanism of the ATP-dependent DNA
 								end-resection machinery from
 								Saccharomyces cerevisiae</a
@@ -865,7 +865,7 @@
 						<p>
 							<a
 								href="https://www.sciencedirect.com/science/article/abs/pii/S002228360900343X"
-								target="_blank"
+								
 								>Visualizing the disassembly of S.
 								cerevisiae Rad51 nucleoprotein
 								filaments</a
@@ -889,7 +889,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)46104-6/fulltext"
-								target="_blank"
+								
 								>Functional role of BLAP75 in
 								BLM-topoisomerase IIIα-dependent
 								Holliday junction processing</a
@@ -910,7 +910,7 @@
 						<p>
 							<a
 								href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2958.2007.05994.x"
-								target="_blank"
+								
 								>RbrA, a cyanobacterial
 								rubrerythrin, functions as a
 								FNR-dependent peroxidase in
@@ -934,7 +934,7 @@
 						<p>
 							<a
 								href="https://www.jbc.org/article/S0021-9258(20)71699-6/fulltext"
-								target="_blank"
+								
 								>PII is important in regulation of
 								nitrogen metabolism but not required
 								for heterocyst formation in the
@@ -953,7 +953,7 @@
 						<p>
 							<a
 								href="https://academic.oup.com/pcp/article/48/4/563/2756887?login=true"
-								target="_blank"
+								
 								>A membrane-associated Mn-superoxide
 								dismutase protects the
 								photosynthetic apparatus and
@@ -974,7 +974,7 @@
 						<p>
 							<a
 								href="https://link.springer.com/article/10.1007/s11458-007-0015-7"
-								target="_blank"
+								
 								>Sample pretreatment microfluidic
 								chip for DNA extraction from rat
 								peripheral blood</a
@@ -992,7 +992,7 @@
 						<p>
 							<a
 								href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2958.2007.05618.x"
-								target="_blank"
+								
 								>MreB is important for cell shape
 								but not for chromosome segregation
 								of the filamentous cyanobacterium
@@ -1014,7 +1014,7 @@
 						<p>
 							<a
 								href="https://www.pnas.org/content/103/30/11334.short"
-								target="_blank"
+								
 								>Regulation of intracellular free
 								calcium concentration during
 								heterocyst differentiation by HetR
@@ -1039,7 +1039,7 @@
 						<p>
 							<a
 								href="https://www.pnas.org/content/102/16/5744/"
-								target="_blank"
+								
 								>CcbP, a calcium-binding protein
 								from Anabaena sp. PCC 7120, provides
 								evidence that calcium ions regulate

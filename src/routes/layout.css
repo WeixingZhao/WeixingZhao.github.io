@@ -1,4 +1,11 @@
 @import 'tailwindcss';
-body {
-	@apply h-screen;
+@theme {
+	@keyframes my-bounce {
+		50% {
+			transform: translateY(-35%);
+		}
+	}
+}
+@utility my-animate-bounce {
+	animation: my-bounce 800ms calc(var(--my-sibling-index) * 150ms) 1;
 }

@@ -1,5 +1,13 @@
 {
 	"files.associations": {
 		"*.css": "tailwindcss"
-	}
+	},
+	"javascript.preferences.autoImportFileExcludePatterns": [
+		"**/node_modules/@lucide/svelte/*.d.ts",
+		"**/node_modules/@lucide/svelte/dist/*.d.ts",
+	],
+	"typescript.preferences.autoImportFileExcludePatterns": [
+		"**/node_modules/@lucide/svelte/*.d.ts",
+		"**/node_modules/@lucide/svelte/dist/*.d.ts",
+	],
 }

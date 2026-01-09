@@ -14,60 +14,37 @@
 <svelte:head>
 	<title>People | Zhao Lab</title>
 </svelte:head>
-<Site useDefaultContainer={false}>
-	<div class="container m-auto">
-		<section class="grid gap-6 md:grid-cols-[1fr_3fr]">
+<Site useDefaultContainer={true}>
+	<div class="grid grid-flow-row auto-rows-auto grid-cols-[auto_1fr] gap-4 md:grid-cols-[min-content_auto_1fr]">
+		<div class="max-md:col-span-2">
 			<h1 class="font-sans text-xl uppercase">The Boss</h1>
-			<div>
-				<Somebody named="Weixing Zhao" isA="Principal Investigator" looksLike={weixingZhao}
-					>Earned his B.S and Ph.D. from Peking University, China, and received postdoctoral
-					training at Yale University. In his free time he enjoys watching movies and having fun
-					with his kids.</Somebody
-				>
-			</div>
-		</section>
-	</div>
-	<div class="backdrop-brightness-97">
-		<div class="container m-auto">
-			<section class="grid gap-6 md:grid-cols-[1fr_3fr]">
-				<h1 class="font-sans text-xl uppercase">Postdocs</h1>
-				<div>
-					<Somebody named="Wenjing Li" isA="Postdoctoral Fellow" looksLike={wenjingLi} />
-					<Somebody named="Bo Wu" isA="Postdoctoral Fellow" looksLike={boWu} />
-					<Somebody named="Tengyang Ni" isA="Postdoctoral Fellow" looksLike={tengNi} />
-					<Somebody named="Rouf Thakur" isA="Postdoctoral Fellow" looksLike={roufThak} />
-				</div>
-			</section>
 		</div>
-	</div>
-	<div class="container m-auto">
-		<section class="grid gap-6 md:grid-cols-[1fr_3fr]">
+		<Somebody named="Weixing Zhao" isA="Principal Investigator" looksLike={weixingZhao}
+			>Earned his B.S and Ph.D. from Peking University, China, and received postdoctoral training at
+			Yale University. In his free time he enjoys watching movies and having fun with his kids.</Somebody
+		>
+		<div class="max-md:col-span-2">
+			<h1 class="font-sans text-xl uppercase">Postdocs</h1>
+		</div>
+		<Somebody named="Wenjing Li" isA="Postdoctoral Fellow" looksLike={wenjingLi} />
+		<Somebody named="Bo Wu" isA="Postdoctoral Fellow" looksLike={boWu} />
+		<Somebody named="Tengyang Ni" isA="Postdoctoral Fellow" looksLike={tengNi} />
+		<Somebody named="Rouf Thakur" isA="Postdoctoral Fellow" looksLike={roufThak} />
+		<div class="max-md:col-span-2">
 			<h1 class="font-sans text-xl uppercase">GRADUATE STUDENTS</h1>
-			<div>
-				<Somebody named="O'Taveon Fitzgerald" isA="Graduate Student" looksLike={taveonFitz} />
-			</div>
-		</section>
-	</div>
-	<div class="backdrop-brightness-97">
-		<div class="container m-auto">
-			<section class="grid gap-6 md:grid-cols-[1fr_3fr]">
-				<h1 class="font-sans text-xl uppercase">Alumni</h1>
-				<div>
-					<Somebody named="Qijing Wang" isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
-					<Somebody named="Felix Dong" isA="Former Lab Manager" looksLike={lnkEmpty} />
-					<Somebody named="Yuxin Huang Ph.D." isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
-					<Somebody named="Meiling Wang Ph.D." isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
-					<Somebody named="Dauren Alimbetov" isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
-				</div>
-			</section>
 		</div>
-	</div>
-	<div class="container m-auto">
-		<section class="grid gap-6 md:grid-cols-[1fr_3fr]">
+		<Somebody named="O'Taveon Fitzgerald" isA="Graduate Student" looksLike={taveonFitz} />
+		<div class="max-md:col-span-2">
+			<h1 class="font-sans text-xl uppercase">Alumni</h1>
+		</div>
+		<Somebody named="Qijing Wang" isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
+		<Somebody named="Felix Dong" isA="Former Lab Manager" looksLike={lnkEmpty} />
+		<Somebody named="Yuxin Huang Ph.D." isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
+		<Somebody named="Meiling Wang Ph.D." isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
+		<Somebody named="Dauren Alimbetov" isA="Former Postdoctoral Fellow" looksLike={lnkEmpty} />
+		<div class="max-md:col-span-2">
 			<h1 class="font-sans text-xl uppercase">Chief Computer Scientist</h1>
-			<div>
-				<Somebody named="David Zhao" isA="Chief Computer Scientist" looksLike={davidZh} />
-			</div>
-		</section>
+		</div>
+		<Somebody named="David Zhao" isA="Chief Computer Scientist" looksLike={davidZh} />
 	</div>
 </Site>

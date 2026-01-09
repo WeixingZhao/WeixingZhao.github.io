@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>Home | Zhao Lab</title>
-	<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
 
 <!-- TODO: Make the thing 3JS -->

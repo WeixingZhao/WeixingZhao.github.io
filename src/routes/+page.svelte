@@ -71,9 +71,9 @@
 				<li><span>7703 Floyd Curl Drive</span></li>
 				<li><span>San Antonio, TX 78229</span></li>
 				<li>
-					<Link href="mailto:zhaow2@uthscsa.edu">&#x2709; zhaow2&commat;uthscsa.edu</Link>
+					<Link href="mailto:zhaow2@uthscsa.edu">✉ zhaow2&commat;uthscsa.edu</Link>
 				</li>
-				<li><Link href="tel:2104505327">&phone;(210) 450-5327</Link></li>
+				<li><Link href="tel:2104505327">☎(210) 450-5327</Link></li>
 			</ul>
 		</div>
 		<aside class="grid grid-flow-row gap-3">

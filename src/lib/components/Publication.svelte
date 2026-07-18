@@ -1,8 +1,13 @@
 <script module lang="ts">
+	const AUTHORS = String.raw`(?<authors>[\p{L}\p{M},.\s*#]+[.#])`;
+	const YEAR = String.raw`\s*\(?(?<year>\d{4}|)\)?`;
+	const TITLE = String.raw`\s*(?<title>.+?\.)`;
+	const JOURNAL_WORD = String.raw`(?!(?:Accepted|In)\b)\p{Lu}[\p{L}\p{M}.]*`;
+	const JOURNAL = String.raw`\s*(?<journal>${JOURNAL_WORD}(?:\s+${JOURNAL_WORD})*)`;
+	const PUBLICATION_PATTERN = new RegExp(`^${AUTHORS}${YEAR}${TITLE}${JOURNAL}`, 'u');
+
 	export function parse(src: string) {
-		return /^([a-zA-Z,.\s*#]+[.#])\s*\(?(\d*)\)?\s*(.*?\.)\s*([A-Z][A-Za-z.]*(\s+[A-Z][A-Za-z.]*)*)/.exec(
-			src
-		);
+		return PUBLICATION_PATTERN.exec(src);
 	}
 </script>
 
@@ -22,10 +27,10 @@
 		publication
 	}: PublicationOptions = $props();
 
-	const result = $derived(parse(data));
-	const authors = $derived(manualAuthor || result![1]);
-	const journal = $derived(manualJournal || result![4]);
-	const title = $derived(publication || result![3]);
+	const fields = $derived(parse(data)!.groups!);
+	const authors = $derived(manualAuthor || fields.authors);
+	const journal = $derived(manualJournal || fields.journal);
+	const title = $derived(publication || fields.title);
 </script>
 
 <p>{authors}</p>

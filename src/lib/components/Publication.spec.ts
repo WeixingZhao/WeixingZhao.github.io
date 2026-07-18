@@ -5,12 +5,15 @@ function parseFields(src: string) {
 	const result = parse(src);
 
 	expect(result).not.toBeNull();
+	expect(result!.groups).toBeDefined();
+
+	const { authors, year, title, journal } = result!.groups!;
 
 	return {
-		authors: result![1],
-		year: result![2],
-		title: result![3],
-		journal: result![4]
+		authors,
+		year,
+		title,
+		journal
 	};
 }
 
@@ -34,7 +37,7 @@ describe('parse', () => {
 				year: '',
 				title:
 					'Promotion of DNA End Resection by the BRCA1-BARD1 Tumor Suppressor in Homologous Recombination.',
-				journal: 'Nature Accepted'
+				journal: 'Nature'
 			}
 		},
 		{

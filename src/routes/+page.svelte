@@ -18,9 +18,9 @@
 
 <Site>
 	{#snippet prelude()}
-		<Link href="#content" class="sr-only focus:not-sr-only">Skip to main content</Link>
+		<Link href="#carousel" class="sr-only focus:not-sr-only">Skip to main content</Link>
 	{/snippet}
-	<div id="grid-container" class="m-auto grid gap-6 md:grid-cols-[2fr_1fr]">
+	<div class="m-auto grid gap-6 md:grid-cols-[2fr_1fr]">
 		<div>
 			<Embla class="[column-span:all]">
 				<EmblaContainer>
@@ -71,44 +71,37 @@
 				<li><span>7703 Floyd Curl Drive</span></li>
 				<li><span>San Antonio, TX 78229</span></li>
 				<li>
-					<Link href="mailto:zhaow2@uthscsa.edu">✉ zhaow2&commat;uthscsa.edu</Link>
+					<Link href="mailto:zhaow2@uthscsa.edu">✉ zhaow2@uthscsa.edu</Link>
 				</li>
 				<li><Link href="tel:2104505327">☎(210) 450-5327</Link></li>
 			</ul>
 		</div>
 		<aside class="grid grid-flow-row gap-3">
-			<div
-				class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97 [&>hr]:border-slate-600"
-			>
+			<div class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97">
 				<h2 class="font-sans text-xl uppercase">CALL FOR POST-DOCS!</h2>
-				<hr class="my-3 w-12" />
+				<hr class="my-3 w-12 border-slate-600" />
 				<p>
 					<Link href="/positions">Postdoctoral positions</Link> are available in the Zhao laboratory in
 					the Dept. of Biochemistry and Structural Biology at UT Health San Antonio.
 				</p>
 			</div>
-			<div
-				class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97 [&>hr]:border-slate-600"
-			>
+			<div class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97">
 				<h2 class="font-sans text-xl uppercase">IN THE MEDIA!</h2>
-				<hr class="my-3 w-12" />
+				<hr class="my-3 w-12 border-slate-600" />
 				<blockquote class="twitter-tweet" data-height="160" data-width="320" data-dnt="true">
 					<p lang="en" dir="ltr">
 						Local researchers exploring alternatives to surgical cancer treatment
 						<Link href="https://t.co/M0KOjlSI4V">https://t.co/M0KOjlSI4V</Link>
 					</p>
-					&mdash; KSAT 12 (@ksatnews)
+					— KSAT 12 (@ksatnews)
 					<Link href="https://twitter.com/ksatnews/status/1721867600563482939?ref_src=twsrc%5Etfw"
 						>November 7, 2023</Link
 					>
 				</blockquote>
 			</div>
-			<div
-				id="twitter"
-				class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97 [&>hr]:border-slate-600"
-			>
+			<div class="card border-t-4 border-t-slate-600 p-3 backdrop-brightness-97">
 				<h2 class="font-sans text-xl uppercase">CHECK US OUT ON TWITTER!</h2>
-				<hr class="my-3 w-12" />
+				<hr class="my-3 w-12 border-slate-600" />
 				<Link
 					class="twitter-timeline"
 					data-height="400"

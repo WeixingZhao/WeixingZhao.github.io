@@ -1,10 +1,8 @@
 <script module lang="ts">
-	abstract class Parser {
-		static readonly key =
-			/^([a-zA-Z,.\s*#]+[.#])\s*\(?(\d*)\)?\s*(.*?\.)\s*([A-Z][A-Za-z.]*(\s+[A-Z][A-Za-z.]*)*)/;
-		static parse(data: string) {
-			return this.key.exec(data);
-		}
+	export function parse(src: string) {
+		return /^([a-zA-Z,.\s*#]+[.#])\s*\(?(\d*)\)?\s*(.*?\.)\s*([A-Z][A-Za-z.]*(\s+[A-Z][A-Za-z.]*)*)/.exec(
+			src
+		);
 	}
 </script>
 
@@ -24,7 +22,7 @@
 		publication
 	}: PublicationOptions = $props();
 
-	const result = $derived(Parser.parse(data));
+	const result = $derived(parse(data));
 	const authors = $derived(manualAuthor || result![1]);
 	const journal = $derived(manualJournal || result![4]);
 	const title = $derived(publication || result![3]);
@@ -32,4 +30,5 @@
 
 <p>{authors}</p>
 <p><b>{journal}</b></p>
-<p><a {href}>{title}</a></p>
+<!--eslint-disable-next-line svelte/no-navigation-without-resolve-->
+<p><a class="text-link-active-color underline" {href} rel="external">{title}</a></p>

@@ -14,7 +14,7 @@
 		<h1 class=" mx-3 text-xl font-thin">
 			Molecular Dissection of BRCA1 Tumor Suppression Networks
 		</h1>
-		<p id="main-content" class="mx-3 indent-8">
+		<p class="mx-3 indent-8">
 			BRCA1 heterodimerizes with another tumor suppressor BARD1, and the resulting complex possesses
 			DNA binding and ubiquiFtin E3 ligase activities, and interacts with proteins that function in
 			diverse biological processes, including homology-directed DNA repair (HDR), DNA replication

@@ -13,7 +13,7 @@
 	let emblaApi = $state<EmblaCarouselType>();
 </script>
 
-<div id="content" class={className}>
+<div id="carousel" class={className}>
 	<div
 		class="overflow-hidden"
 		use:emblaCarouselSvelte={{ options: { loop: true, skipSnaps: true }, plugins }}

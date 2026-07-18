@@ -10,7 +10,7 @@
 <Site>
 	<div class="columns-sm">
 		<h1 class=" mx-3 text-xl font-thin">Positions Available</h1>
-		<p id="main-content" class="mx-3 indent-8">
+		<p class="mx-3 indent-8">
 			We have openings for both postdoctoral researchers and graduate students in our lab.
 		</p>
 		<hr class="my-3" />
